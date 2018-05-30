@@ -1,0 +1,53 @@
+ {
+    "authDelegate":{
+        // The Client Secret of the Product from developer.amazon.com
+        "clientSecret":"36dfe47e0ce1db3827cbaf9892ca719c96606b941db096a4f6a766711cf8e409",
+        // Unique device serial number. e.g. 123456
+        "deviceSerialNumber":"123456",
+        // Refresh Token populated by running AuthServer.py
+		"refreshToken":"Atzr|IwEBIB0pZcRRrl9F1__CE6JOGtEVgeStjBy7gn4z0jE0MhrkWuBRtxd9WAeLFSyUBEhiF9ZZNZS97gqkl7VJ9_813Z0WLWozh53nvKffRtp7qCA6ptt49QZrtympH-Td9WiWd7YOSvLDJCgSt5y3pg2tO3I1GUXPyPMZihlZakJRHZ7LiNZy3M6rAFdU8qgmkKnIPHzVKWMVpO1fCXwHSZJSB5tHzMfVPlEmlTNBuq3D21QoN2_9uPC_hj2h3wDD055I5nU27dTXGn_s6JSDa05urlz5Spn2BZ254c3CXfcb8cP-Raq48iQEhsDBclO0cikVhh_35nkbklGxbLEGBoOFwsaqLnCTibstN2ZwzyaOy0lQuBjJt8zn_tu9eU1nUG9jMbsQxKlj8J65G7ymVtX5ww9xF3CHRDzNKJXhh1mRK5w4GOySSX9Y3IZdJGiQZX0A4TVqtKUrJXdkncW_QpSlltJqXonLF0O8aQEixZg8h8IDKCFP8OTbUqyVeDvOEMHHXIJPR1BQW-eUorxXnhOzgpsAQymwb74yIOf1c5ikiPSznA",
+        // The Client ID of the Product from developer.amazon.com
+        "clientId":"amzn1.application-oa2-client.492422777ce949e0b180d78a3b8f334f",
+        // Product ID from developer.amazon.com
+        "productId":"TopqizhiAlexa"
+     },
+   "alertsCapabilityAgent":{
+        // Path to Alerts database file. e.g. /home/ubuntu/Build/alerts.db
+        // Note: The directory specified must be valid.
+        // The database file (alerts.db) will be created by SampleApp, do not create it yourself.
+        // The database file should only be used for alerts (don't use it for other components of SDK)
+        "databaseFilePath":"/home/fanshuming/qz_proj/AVS_CP/sdk-folder/sdk-build/Integration/alerts.db"
+   },
+   "settings":{
+        // Path to Settings database file. e.g. /home/ubuntu/Build/settings.db
+        // Note: The directory specified must be valid.
+        // The database file (settings.db) will be created by SampleApp, do not create it yourself.
+        // The database file should only be used for settings (don't use it for other components of SDK)
+        "databaseFilePath":"/home/fanshuming/qz_proj/AVS_CP/sdk-folder/sdk-build/Integration/settings.db",
+        "defaultAVSClientSettings":{
+            // Default language for Alexa.
+            // See https://developer.amazon.com/docs/alexa-voice-service/settings.html#settingsupdated for valid values.
+            "locale":"en-US"
+          }
+    },
+   "certifiedSender":{ 
+        // Path to Certified Sender database file. e.g. /home/ubuntu/Build/certifiedsender.db
+        // Note: The directory specified must be valid.
+        // The database file (certifiedsender.db) will be created by SampleApp, do not create it yourself.
+        // The database file should only be used for certifiedSender (don't use it for other components of SDK)
+        "databaseFilePath":"/home/fanshuming/qz_proj/AVS_CP/sdk-folder/sdk-build/Integration/certifiedsender.db"
+    },
+    "notifications":{ 
+        // Path to Notifications database file. e.g. /home/ubuntu/Build/notifications.db
+        // Note: The directory specified must be valid.
+        // The database file (notifications.db) will be created by SampleApp, do not create it yourself.
+        // The database file should only be used for notifications (don't use it for other components of SDK)
+        "databaseFilePath":"/home/fanshuming/qz_proj/AVS_CP/sdk-folder/sdk-build/Integration/notifications.db"
+    },
+    "sampleApp":{
+        // To specify if the SampleApp supports display cards.
+        "displayCardsSupported":true
+    }
+ }
+
+
