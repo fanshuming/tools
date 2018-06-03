@@ -17,3 +17,9 @@ yy 复制一行
 dd 删除一行
 yG 从当前位置复制到文档结尾
 y1G 从当前位置复制到文档开始
+
+替换string1为string2：
+:%s/string1/string2/g
+替换为换行：
+:%s/string1/\r/g
+
