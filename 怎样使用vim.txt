@@ -22,4 +22,7 @@ y1G 从当前位置复制到文档开始
 :%s/string1/string2/g
 替换为换行：
 :%s/string1/\r/g
+替换每行开头或结尾
+:%s/^/straing1/g
+:%s/$/string1/g
 
